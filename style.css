@@ -1,0 +1,65 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 400px auto;
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    margin: 2rem;
+    padding: 2rem;
+    background: darkslategrey;
+    color: white;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.flex-card {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0.5rem;
+    background: lightgray;
+    color: darkslategray;
+}
+
+.flex-card > * {
+    
+}
+
+.card {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin: 0.5rem;
+    background: lightgray;
+    color: darkslategray;
+}    
+
+.introduction{
+    /* padding: 10rem 0 5rem 0; */
+}
+
+.experience{
+
+}
+
+footer{
+    grid-column: span 2;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .grid{
+        grid-template-columns: 50fr;
+    }
+}
