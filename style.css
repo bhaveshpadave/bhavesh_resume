@@ -12,6 +12,16 @@ a {
 
 a:hover{
     text-decoration: underline;
+    /* font-size: 1.1rem; */
+}
+
+#links {
+    display: grid;
+    grid-template-columns: 2rem auto;
+}
+
+li {
+    list-style: none;
 }
 
 .container{
@@ -34,24 +44,25 @@ a:hover{
     color: darkslategray;
 }
 
-.flex-card > * {
+/* .flex-card > * {
     
-}
+} */
 
 .card {
     padding: 0.5rem 1rem 0.5rem 1rem;
     margin: 0.5rem;
     background: lightgray;
     color: darkslategray;
-}    
+}   
 
-.introduction{
-    /* padding: 10rem 0 5rem 0; */
-}
 
-.experience{
+/* .introduction{
+    padding: 10rem 0 5rem 0;
+} */
 
-}
+/* .experience{
+
+} */
 
 footer{
     grid-column: span 2;
